@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { HomeComponent } from './home/home.component';
 import { MainComponent } from './main.component';
 
 
@@ -11,7 +10,7 @@ const routes: Routes = [
         component: MainComponent,
         children: [
             //localhost:4200/main/user
-            { path: 'home', component: HomeComponent }
+            {path:'user',loadChildren: () => import('./user/user.module').then(m => m.UserModule)}
         ]
     }
 
