@@ -33,14 +33,17 @@
               "node_modules/nprogress/nprogress.css",
               "node_modules/animate.css/animate.min.css",
               "node_modules/icheck/skins/flat/blue.css",
-              "src/assets/css/custom.css",
+              "src/assets/css/google-font.css",
+              "src/assets/css/AdminLTE.min.css",
+              "src/assets/css/skins/_all-skins.min.css",
               "src/styles.scss"
             ],
             "scripts": [         
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
               "node_modules/icheck/icheck.min.js",
-              "src/assets/js/custom.js"
+              "src/assets/js/adminlte.min.js",
+              "src/assets/js/demo.js"
             ]
           },
           "configurations": {

@@ -1,5 +1,7 @@
 
 $(document).ready(function() {
+	$('.sidebar-menu').tree();
+
     if ($("input.flat")[0]) {
         $(document).ready(function () {
             $('input.flat').iCheck({

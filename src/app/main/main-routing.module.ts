@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { MainComponent } from './main.component';
+import { HomeComponent } from './home/home.component';
 
 
 const routes: Routes = [
@@ -9,8 +10,13 @@ const routes: Routes = [
         path: '',
         component: MainComponent,
         children: [
+            {
+                path:'',redirectTo: 'home'
+            },
+            //localhost:4200/main/home
+            { path: 'home', component: HomeComponent},
             //localhost:4200/main/user
-            {path:'user',loadChildren: () => import('./user/user.module').then(m => m.UserModule)}
+            { path: 'user', loadChildren: () => import('./user/user.module').then(m => m.UserModule) }
         ]
     }
 
