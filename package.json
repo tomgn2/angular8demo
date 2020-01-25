@@ -26,6 +26,7 @@
     "font-awesome": "^4.7.0",
     "gentelella": "^1.4.0",
     "icheck": "^1.0.2",
+    "jquery": "^3.4.1",
     "jqvmap": "^1.5.1",
     "nprogress": "^0.2.0",
     "rxjs": "~6.4.0",
