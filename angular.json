@@ -36,9 +36,10 @@
               "src/assets/css/google-font.css",
               "src/assets/css/AdminLTE.min.css",
               "src/assets/css/skins/_all-skins.min.css",
+              "node_modules/ngx-toastr/toastr.css",
               "src/styles.scss"
             ],
-            "scripts": [         
+            "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
               "node_modules/icheck/icheck.min.js",
@@ -143,6 +144,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "angular-demo"
 }
